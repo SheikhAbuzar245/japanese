@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: my-font;
+    src: url(font/NotoSansJP-VariableFont_wght.ttf);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: my-font;
+}
+p{
+    font-family: my-font;
+}
+
+.container{
+    width: 1200px;
+    padding-inline: 50px;
+    margin: 0 auto;
+}
+
+.top-pattern{
+    width: 1100px;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+.main-img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.page1{
+    position: relative;
+}
+
+.page1 h3{
+    color: #95b339;
+    top: 220px;
+    left: 130px;
+    font-weight: 900;
+    font-size: 65px;
+    position: absolute;
+    z-index: 4;
+}
+
+
+.page1 p{
+    color: black;
+    font-size: 30px;
+    font-weight: normal;
+    margin-left:50px;
+    position:absolute;
+    top: 420px;
+    left: 82px;
+    z-index: 5;
+}
